@@ -57,8 +57,8 @@ public class DataTypes {
     // CONSTANT VARIABLE
     final float PI = 3.14F;
 
-    // Scanner scanner = new Scanner(System.in);
-    // byte inputAge = scanner.nextByte();
+    Scanner scanner = new Scanner(System.in);
+    byte inputAge = scanner.nextByte();
     // System.out.println("Age: " + inputAge);
 
     // Scanner scanner = new Scanner(System.in);
