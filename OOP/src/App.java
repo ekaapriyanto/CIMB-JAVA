@@ -14,13 +14,12 @@ public class App {
 
         // hitung jumah gaji -> gaji pokok + (gajiPerJam * lembur)
         Scanner scanner = new Scanner(System.in);
-        Employee orang = new Employee();
+        Employee orang = new Employee(50_000, 100);
+        Employee person = new Employee(10_000);
 
-        orang.setSalary(scanner.nextInt());
-        orang.setOvertime(scanner.nextInt());
-        orang.setPayPerHour(scanner.nextInt());
+        // int overtime = scanner.nextInt();
 
-        System.out.println(orang.calculateWage());
+        System.out.println(Employee.employeeCount);
 
     }
 
