@@ -1,16 +1,20 @@
 package OOP.src;
 
+import java.util.ArrayList;
+
 public class Buah {
   private String nama;
   private int harga;
   private int stock;
 
-  public static String testing = "halo";
+  public static int buahCount;
 
   public Buah(String nama, int harga, int stock) {
     setNama(nama);
     setHarga(harga);
     setStock(stock);
+
+    buahCount++;
   }
 
   public String getNama() {
