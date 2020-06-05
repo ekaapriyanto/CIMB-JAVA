@@ -18,11 +18,16 @@ public class App {
         // System.out.println(point1.hashCode());
         // System.out.println(point2.equals(point1));
 
-        Input[] inputs = { new TextBox(), new CheckBox() };
+        // Input[] inputs = { new TextBox(), new CheckBox() };
 
-        for (int i = 0; i < inputs.length; i++) {
-            inputs[i].render();
-        }
+        // for (int i = 0; i < inputs.length; i++) {
+        // inputs[i].render();
+        // }
+
+        // PajakCalculator2Impl calculator = new PajakCalculator2Impl();
+        // PajakReport report = new PajakReport(calculator);
+
+        // report.show();
 
     }
 
